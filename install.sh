@@ -71,3 +71,4 @@ sudo apt install ipv6-toolkit -y
 sudo apt install termineter -y
 sudo apt install iaxflood -y
 sudo apt install rtpflood -y
+rm VirtualBox-7.0.14-161095-Linux_amd64.run
