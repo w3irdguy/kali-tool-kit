@@ -2,6 +2,8 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install git -y
 sudo apt install airgeddon -y
+sudo apt install whatweb -y
+sudo apt install wpscan -y
 sudo apt install proxychains4 -y
 sudo apt install tor -y
 sudo apt install linux-headers-amd64 
