@@ -4,9 +4,6 @@ sudo apt install git -y
 sudo apt install airgeddon -y
 sudo apt install proxychains4 -y
 sudo apt install tor -y
-wget https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Linux_amd64.run
-chmod +x VirtualBox-7.0.14-161095-Linux_amd64.run
-sudo ./VirtualBox-7.0.14-161095-Linux_amd64.run
 sudo apt install linux-headers-amd64 
 sudo apt install linux-headers-6.6.9-amd64
 git clone https://github.com/tegal1337/CiLocks
@@ -73,4 +70,6 @@ sudo apt install ipv6-toolkit -y
 sudo apt install termineter -y
 sudo apt install iaxflood -y
 sudo apt install rtpflood -y
-rm VirtualBox-7.0.14-161095-Linux_amd64.run
+sudo apt install wine -y
+sudo apt update -y
+sudo apt full-upgrade -y
