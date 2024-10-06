@@ -7,5 +7,5 @@ def root():
       for line in file.readlines():
         os.system(f"sudo apt install {line} -y")
   else:
-    print("you need \033[0;91m; root\033[0m")
+    print("you need \033[0;91m root\033[0m to continue")
       
